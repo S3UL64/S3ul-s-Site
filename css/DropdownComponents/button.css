@@ -1,0 +1,19 @@
+/* button.css */
+.dropdown-button {
+    background-color: #000; /* Black background color */
+    color: white;
+    padding: 5px 10px; /* Smaller padding for a smaller button */
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size */
+    width: 25%; /* Takes up a quarter of the space */
+    position: absolute;
+    right: 0; /* Aligns to the right */
+    top: 0; /* Aligns to the top */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    text-align: center; /* Centers text inside the button */
+}
+
+.dropdown-button:hover {
+    background-color: #333; /* Darker shade of black on hover */
+}

@@ -1,0 +1,41 @@
+/* General resets and basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    transition: background 1s ease-in-out; /* Smooth transition for background changes */
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.folder {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+footer p {
+    margin: 0;
+}

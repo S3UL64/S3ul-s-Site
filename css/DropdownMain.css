@@ -1,0 +1,16 @@
+/* DropdownMain.css */
+
+/* Importing component-specific styles from DropdownComponents */
+@import url('DropdownComponents/button.css');
+@import url('DropdownComponents/dropdown.css');
+
+/* Importing layout-specific styles from DropdownLayout */
+@import url('DropdownLayout/header.css');
+@import url('DropdownLayout/footer.css');
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Additional global styles can go here */
