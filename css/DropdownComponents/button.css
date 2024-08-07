@@ -1,12 +1,12 @@
 /* button.css */
 .dropdown-button {
     background-color: #000; /* Black background color */
-    color: white;
+    color: black;
     padding: 5px 10px; /* Smaller padding for a smaller button */
     border: none;
     cursor: pointer;
     font-size: 14px; /* Smaller font size */
-    width: 25%; /* Takes up a quarter of the space */
+    width: 145%; /* Takes up a quarter of the space */
     position: absolute;
     right: 0; /* Aligns to the right */
     top: 0; /* Aligns to the top */
