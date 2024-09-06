@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,70 +9,87 @@
     <!-- Favicon Links -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.png">
-    <link rel="icon" sizes="57x57" href="images/favicon-32x32.png">
     <link rel="icon" sizes="57x57" href="images/favicon-57x57.png">
     <link rel="icon" sizes="72x72" href="images/favicon-72x72.png">
-    <link rel="icon" sizes="76x76" href="images/favicon-76x76.png">
     <link rel="icon" sizes="114x114" href="images/favicon-114x114.png">
     <link rel="icon" sizes="120x120" href="images/favicon-120x120.png">
     <link rel="icon" sizes="144x144" href="images/favicon-144x144.png">
     <link rel="icon" sizes="152x152" href="images/favicon-152x152.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">    
+    <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="images/favicon-144x144.png">
 
     <!-- Styles -->
     <style>
         body {
-            background-color: Indigo;
-            color: White; /* Adjusted to ensure text is readable */
-            font-family: "Lucida Console", Times, Monospace;
+            background-color: indigo;
+            color: white;
+            font-family: "Lucida Console", Times, monospace;
             display: flex;
-            flex-direction: column; /* Stack child elements vertically */
+            flex-direction: column;
+            margin: 0;
+            height: 100vh;
         }
-       
+
         h2 {
-            color: Black;
+            color: black;
         }
-        
+
         .dropdown {
             position: relative;
             display: inline-block;
         }
+
         .dropdown-button {
-            background-color: Black;
-            color: White;
+            background-color: black;
+            color: white;
             border: none;
             padding: 10px;
             font-size: 24px;
             cursor: pointer;
         }
+
         .dropdown-content {
             display: none;
             position: absolute;
-            background-color: White;
+            background-color: white;
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             z-index: 1;
         }
+
         .dropdown-content a {
-            color: Black;
+            color: black;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
+
         .dropdown-content a:hover {
             background-color: #f1f1f1;
         }
+
         .dropdown:hover .dropdown-content {
             display: block;
         }
+
         .dropdown:hover .dropdown-button {
             background-color: #3e8e41;
         }
 
-             .content {
-            flex: 1; /* Grow to fill available space */
-        
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
     </style>
 
     <!-- Scripts -->
@@ -79,25 +97,29 @@
     <script src="js/DropdownScript.js"></script>
     <script src="js/DropdownUtilities.js"></script>
 </head>
-<body>
-    
-    
-    <div class="dropdown">
-        <button class="dropdown-button">☰</button>
-        <div class="dropdown-content">
-            <a href="https://www.youtube.com/@soul_64" target="_blank">Option 1</a>
-            <a href="#option2">Option 2</a>
-            <a href="#option3">Option 3</a>
-        </div>
-    </div>
 
-    <object type="application/x-shockwave-flash" data="swf's/Animator_vs_Animation_Game_Special_Edition.swf" width="400" height="300">
-        <!-- Flash content (if supported) -->
-    </object>
+<body>
+    <header>
+        <div class="dropdown">
+            <button class="dropdown-button">☰</button>
+            <div class="dropdown-content">
+                <a href="https://www.youtube.com/@soul_64" target="_blank">Option 1</a>
+                <a href="#option2">Option 2</a>
+                <a href="#option3">Option 3</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+        <object type="application/x-shockwave-flash" data="swf/Animator_vs_Animation_Game_Special_Edition.swf" width="400" height="300">
+            <!-- Flash content (if supported) -->
+        </object>
+    </main>
 
     <footer>
-        <p>&copy; 6069  @soul_64-on Youtube</p>
+        <p>&copy; 6069 @soul_64 on YouTube</p>
     </footer>
 </body>
+
 </html>
 
